@@ -89,6 +89,12 @@ def build_image_dataset(landing_page_urls):
 # -----------------------------
 if __name__ == "__main__":
     landing_pages = [
-        "https://example.com"  # Replace with actual ad landing pages
+        "https://www.apple.com/in/shop/buy-mac/macbook-air",
+        "https://www.nike.com/in/w/mens-shoes-6e1x6zy7ok",
+        "https://www.adidas.co.in/men-shoes",
+        "https://www.amazon.in/dp/B0B1G3XYZ1",
+        "https://www.tesla.com/model3"
     ]
+    build_image_dataset(landing_pages)
+
     build_image_dataset(landing_pages)
